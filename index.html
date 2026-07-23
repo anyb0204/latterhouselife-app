@@ -84,6 +84,26 @@
             color: #2c3e50;
         }
         
+        .sponsor-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 2rem auto;
+            box-shadow: 0 4px 15px rgba(238, 90, 36, 0.3);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .sponsor-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(238, 90, 36, 0.4);
+        }
+        
         footer {
             text-align: center;
             color: white;
@@ -98,5 +118,56 @@
             }
             
             .container {
+                padding: 1rem;
+            }
+            
+            .sponsor-button {
+                padding: 0.8rem 1.5rem;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Latter House Life</h1>
+            <p class="subtitle">Building meaningful connections and creating lasting memories</p>
+        </header>
+        
+        <main class="content">
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3 class="feature-title">Community</h3>
+                    <p>Join our vibrant community of like-minded individuals who share your values.</p>
+                </div>
                 
- 
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h3 class="feature-title">Purpose</h3>
+                    <p>Discover your purpose and create positive impact in your local community.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3 class="feature-title">Connection</h3>
+                    <p>Build genuine relationships that last beyond the digital world.</p>
+                </div>
+            </div>
+            
+            <a href="https://github.com/sponsors/yourusername" target="_blank" class="sponsor-button">
+                💖 Support Our Work
+            </a>
+            
+            <p style="margin-top: 2rem; text-align: center;">
+                This site is hosted on GitHub Pages with domain <strong>latterhouselife.app</strong>
+            </p>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Latter House Life. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
